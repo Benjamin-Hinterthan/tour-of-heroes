@@ -4,11 +4,10 @@ import { NgIf, NgFor } from '@angular/common';
 
 
 @Component({
-  selector: 'app-messages',
-  standalone: true,
-  imports: [NgIf, NgFor],
-  templateUrl: './messages.component.html',
-  styleUrl: './messages.component.css'
+    selector: 'app-messages',
+    imports: [NgIf, NgFor],
+    templateUrl: './messages.component.html',
+    styleUrl: './messages.component.css'
 })
 export class MessagesComponent {
 
