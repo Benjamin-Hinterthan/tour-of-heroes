@@ -14,17 +14,16 @@ import {FormsModule} from '@angular/forms';
 
 
 @Component({
-  selector: 'app-heroes',
-  standalone: true,
-  imports: [
-    FormsModule,
-    NgIf,
-    NgFor,
-    UpperCasePipe,
-    RouterLink
-  ], //import hier einbinden
-  templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.css']
+    selector: 'app-heroes',
+    imports: [
+        FormsModule,
+        //NgIf,
+        NgFor,
+        //UpperCasePipe,
+        RouterLink
+    ], //import hier einbinden
+    templateUrl: './heroes.component.html',
+    styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
   heroes: Hero[] = [];

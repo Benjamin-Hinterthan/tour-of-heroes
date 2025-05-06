@@ -8,11 +8,10 @@ import { Location } from '@angular/common';
 import { HeroService } from '../hero.service';
 
 @Component({
-  selector: 'app-hero-detail',
-  standalone: true,
-  imports: [FormsModule, NgIf, UpperCasePipe],
-  templateUrl: './hero-detail.component.html',
-  styleUrls: ['./hero-detail.component.css']
+    selector: 'app-hero-detail',
+    imports: [FormsModule, NgIf, UpperCasePipe],
+    templateUrl: './hero-detail.component.html',
+    styleUrls: ['./hero-detail.component.css']
 })
 export class HeroDetailComponent {
   @Input() hero?: Hero;
